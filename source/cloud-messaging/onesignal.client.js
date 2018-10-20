@@ -4,8 +4,7 @@ var onesignalClient = new OneSignal.Client({
     userAuthKey: 'Y2YzY2ZhNGEtOWEzMy00YjQ1LThhZDEtZTA3MzI5YzI5ZGJj',
     app: { appAuthKey: 'OWNlOWQ1MDUtNTAxYS00ZDBkLWE4YzgtOTE2NGNkOThlYWQ4', appId: 'b723a2a6-4f13-458f-b5d2-6d5c6d7963c0' }
  });     
-onesignalClient.setRootUrl(onesignalRestUrl)
-
+ 
 function oneSignalClient(){
     this.sendApplicationActivationMessage = sendApplicationActivationMessage
 }

@@ -12,4 +12,8 @@ module.exports = function(app){
         else 
             res.json({ success : false, errorMessage : "user already exists" })
     })
+
+    app.get('/values', async function(req, res){ 
+        res.json({ values : "values" })    
+    })
 }

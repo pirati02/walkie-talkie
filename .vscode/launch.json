@@ -4,9 +4,19 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "nodemon",
+            "name": "nodemon api",
             "runtimeExecutable": "nodemon",
             "program": "${workspaceFolder}/server/api.server.js",
+            "restart": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nodemon ws",
+            "runtimeExecutable": "nodemon",
+            "program": "${workspaceFolder}/server/ws.server.js",
             "restart": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
